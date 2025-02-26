@@ -21,6 +21,7 @@ def euclidean_distance(point1, point2):
     """
     return math.sqrt(sum((a - b) ** 2 for a, b in zip(point1, point2)))
 
+
 def generate_data(dim, k, n, out_path, extras={}):
     """
     Generates `n` points in `dim` dimensions, assigns each to the nearest cluster,
